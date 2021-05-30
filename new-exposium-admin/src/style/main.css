@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-cursive {
+  font-family: cursive;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.loginHeader {
+  display: flex;
+  flex-direction: column;
+  min-width: 80vw;
+}
+
+.headerButton {
+  margin-right: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

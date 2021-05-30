@@ -1,0 +1,21 @@
+{
+  "name": "new-exposiam-video-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build":"cd new-exposium-admin && npm run build",
+    "install-client":"cd new-exposium-admin && npm install",
+    "heroku-postbuild":"npm run install-client && npm run build",
+    "start": "node app.js",
+    "client":"cd new-exposium-admin && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awake-heroku": "^2.0.8",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  }
+}

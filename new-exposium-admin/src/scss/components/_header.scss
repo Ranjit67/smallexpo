@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.loginHeader {
+  display: flex;
+  flex-direction: column;
+  min-width: 80vw;
+}
+.headerButton {
+  margin-right: 40px;
+}
